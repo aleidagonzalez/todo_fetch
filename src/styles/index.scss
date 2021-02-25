@@ -1,5 +1,20 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.body{
+    margin-top: 100px;
+}
+
+
+h1{
+    color:red;
+}
+.label{
+     font-weight: bold;
+}
+
+#todosList{
+    background-color: rgb(255, 208, 196);
+}
 /* 
 
     You can write your own styles here...

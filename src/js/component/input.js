@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export function TaskInput() {
 	const [taskList, setTaskList] = useState([]);
+	const [newTaskList, setNewTaskList] = useState([]);
 	useEffect(() => {
 		getTodos();
 	}, []);
